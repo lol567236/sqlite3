@@ -127,3 +127,10 @@ SELECT COUNT(*) FROM healthcare WHERE weight > 80 and height > 190;
 ```
 22
 ```
+
+```sql
+SELECT COUNT(*) FROM healthcare WHERE smoking = 1 and is_drinking = 1 and weight > 130;
+```
+```
+3
+```
